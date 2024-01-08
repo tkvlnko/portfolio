@@ -1,0 +1,133 @@
+.nav-item {
+    padding: 0.5rem;
+    margin-right: 2.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: color 0.3s;
+}
+
+.nav-item2 {
+    padding: 0.5rem;
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition: color 0.3s;
+    margin: 1rem 0;
+}
+
+
+.nav-item:hover {
+    color: white;
+}
+
+.nav-item::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 3px; 
+    width: 0;
+    height: 0.5px; 
+    background-color: white; 
+    transition: width 0.3s; 
+}
+
+
+.nav-item:hover::after {
+    width: 100%; 
+}
+
+.nav-items {
+    display: flex;
+}
+
+
+.logo {
+    display: block;
+}
+
+.navigation-menu {
+    display: none;
+}
+
+@keyframes modalAnimation {
+    from {
+        right: -10rem;
+    }
+    to {
+        right: 0;
+    }
+    }
+
+    @keyframes modalAnimation2 {
+        from {
+            right: 0;
+        }
+        to {
+            right: -10rem;
+        }
+        }
+
+
+.navigation-subblock-menu {
+    display: none;
+    z-index: 100;
+    overflow: hidden;
+    backdrop-filter: blur(6px);
+    height: 100%;
+    width: 100%;
+    transition: 0.5s ease-in-out;
+    animation: modalAnimation 0.5s forwards;
+    
+}
+
+.navigation-subblock-menu-out {
+    animation: modalAnimation2 0.5s forwards;
+    
+}
+
+.nav-blur {
+    z-index: 1000;
+    width: 500px;
+    backdrop-filter: (6px);
+    height: 100%;
+    width: 100%;
+}
+.right-nav {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: rgb(26, 21, 37);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+    flex-direction: column;
+    filter: drop-shadow(0 0 2rem rgba(0, 0, 0, 0.5));
+}
+
+.sign {
+    z-index: 200;
+}
+
+.navigation-subblock {
+    display: flex;
+}
+
+
+@media screen and (max-width: 600px) {
+    .navigation-subblock {
+        display: none;
+    }
+
+
+    .logo {
+        display: none;
+    }
+
+
+    .navigation-subblock-menu, .navigation-menu {
+        display: flex;
+    }
+    
+}

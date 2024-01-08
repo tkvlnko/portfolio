@@ -7,16 +7,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
-        basegreen: '#435327',
+        bgColor: "#0F1017",
+        txtGrey: "", 
+        lightPurple: "#7B89C2",
       },
       fontFamily: {
-        nunito: ["Nunito", "sans-serif"],
-        shadow: ["Shadow", 'sans-serif'],
-        sans: ["Open Sans", 'sans-serif']
+        ubuntu: ["Ubuntu", "sans-serif"],
+        space: ["Space Mono", "sans-serif"], 
+        outfit: ["Outfit", "sans-serif"]
       },
     },
     screens: {
