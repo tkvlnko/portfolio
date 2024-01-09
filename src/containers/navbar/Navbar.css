@@ -28,7 +28,7 @@
     bottom: 3px; 
     width: 0;
     height: 0.5px; 
-    background-color: white; 
+    background-color: rgb(94, 121, 201); 
     transition: width 0.3s; 
 }
 

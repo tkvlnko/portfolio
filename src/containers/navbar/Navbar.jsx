@@ -28,9 +28,9 @@ function Navbar () {
             </div>
         </div>
 
-            <div className='navigation-menu'>
+            <div className='navigation-menu '>
                 
-                <div className='sign absolute right-8'>
+                <div className='sign absolute right-8 top-[3%]'>
                     { toggleMenu 
         ? <RiCloseLine color="fff" size={27} onClick={() => setToggleMenu(false)}/>
         : <RiMenu3Line color="fff" size={27} onClick={() => setToggleMenu(true)}/>
@@ -60,10 +60,6 @@ function Navbar () {
                             
             )}
         </div>
-
-    <script>
-        const toggle = document.addE
-    </script>
     </nav>
     
     )

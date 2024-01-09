@@ -1,5 +1,5 @@
-// eslint-disable-next-line no-unused-vars
-import { React, useMemo, useRef } from 'react'
+/* eslint-disable react/no-unknown-property */
+import { useMemo, useRef } from 'react'
 import vertexShader from "./vertexShader"
 import fragmentShader from "./fragmentShader"
 import { useFrame } from "@react-three/fiber";
@@ -14,7 +14,7 @@ export const Blob = () => {
     const uniforms = useMemo(() => {
       return {
         u_time: { value: 0 },
-        u_intensity: { value: 0.7 },
+        u_intensity: { value: 0.5 },
       };
     });
 
@@ -26,7 +26,7 @@ export const Blob = () => {
   
         mesh.current.material.uniforms.u_intensity.value = MathUtils.lerp(
           mesh.current.material.uniforms.u_intensity.value,
-          hover.current ? 1 : 0.15,
+          hover.current ? 3 : 0.15,
           0.02
         );
       }
