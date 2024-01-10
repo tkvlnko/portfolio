@@ -8,13 +8,13 @@ const Hero = () => {
     return (
         <div className="section__margin section__padding static">
             <div className="px-[8rem] py-[8rem] 
-                            lg:px-[4rem] sm:px-[2rem] sm:py-[13rem]
+                            lg:px-[4rem] sm:px-[2rem] sm:py-[40%] lg:py-[30%]
                             flex justify-start align-center">
                 <div className="flex flex-col max-w-[70%] lg:max-w-full">
                     <p className="font-space text-lightPurple mb-10">hi, my name is</p>
                     <h1 className="">Taya Kovalenko.</h1>
                     <h1 className="opacity-75">I build things for the web.</h1>
-                    <p className="mt-7 max-w-[70%] text-[14px]">I&apos;m  a software engineer specialising in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on</p>
+                    <p className="mt-7 max-w-[70%] sm:max-w-full text-[14px]">I&apos;m  a software engineer specialising in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on</p>
                     <button className="border-[0.5px] border-indigo-300 rounded-2xl my-8 py-3 px-6  transition duration-500 font-space text-indigo-300 flex button-order button-85 justify-center items-center">
                         <p className="mr-6 sm:m-0">order a website</p>
                         <div className="sm:hidden flex justify-center"><img src={arrow}/></div>
