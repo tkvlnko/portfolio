@@ -1,6 +1,7 @@
 import { Canvas } from "@react-three/fiber"
 import Blob from "../../components/Blob/index"
 import { arrow } from "../../assets"
+import { Typewriter } from 'react-simple-typewriter'
 import "./Hero.css"
 
 
@@ -12,7 +13,17 @@ const Hero = () => {
                             flex justify-start align-center">
                 <div className="flex flex-col max-w-[70%] lg:max-w-full">
                     <p className="font-space text-lightPurple mb-10">hi, my name is</p>
-                    <h1 className="">Taya Kovalenko.</h1>
+                    <h1 className="">
+                        <Typewriter 
+                            words={["Taya Kovalenko."]}
+                            loop={1}
+                            cursor
+                            cursorStyle='_'
+                            typeSpeed={200}
+                            deleteSpeed={20}
+                            delaySpeed={7000}
+                        />
+                    </h1>
                     <h1 className="opacity-75">I build things for the web.</h1>
                     <p className="mt-7 max-w-[70%] sm:max-w-full text-[14px]">I&apos;m  a software engineer specialising in building (and occasionally designing) exceptional digital experiences. Currently, I&apos;m focused on</p>
                     <button className="border-[0.5px] border-indigo-300 rounded-2xl my-8 py-3 px-6  transition duration-500 font-space text-indigo-300 flex button-order button-85 justify-center items-center">
