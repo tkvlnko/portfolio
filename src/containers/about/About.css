@@ -1,9 +1,10 @@
 .wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    /* align-items:; */
     height: 100%;
-    margin-left: 50px;
+    width: 100%;
+    /* margin-left: 50px; */
     position: relative;
 }
 
@@ -12,8 +13,8 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    height: 430px;
-    width: 430px;
+    height: 100%;
+    width: 100%;
     box-shadow: 0 20px 5px 5px rgba(86, 34, 229, 0.13);
     animation: animate1 5s ease-in-out infinite;
     transition: all 1s ease-in-out;
@@ -38,8 +39,8 @@
     -webkit-background-size: cover;
     background-size: cover;
     background-position: center center;
-    height: 430px;
-    width: 430px;
+    height: 100%;
+    width: 100%;
     /* box-shadow: 0 20px 5px 5px rgba(86, 34, 229, 0.13); */
     animation: animate2 6s ease-in-out infinite;
     transition: all 1s ease-in-out;

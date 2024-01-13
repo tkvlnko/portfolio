@@ -2,12 +2,12 @@ import "./About.css"
 
 const About = () => {
     return (
-        <div className="px-[8rem] py-[8rem] 
-        lg:px-[4rem] sm:px-[2rem] sm:py-[40%] lg:py-[30%]
-        flex justify-start align-center">
-            <div>
-                <h1>About me.</h1>
-                <p>Hello, and welcome to my website! My name is Taya Kovalenko, and I&apos;m a software developer from Moscow with a passion for using technology to create innovative and intuitive solutions.<br/><br/>
+        <div className="section__margin section__padding w-full">
+            <div className="px-[8rem] py-[8rem] lg:px-[4rem] sm:px-[2rem] sm:py-[40%] lg:py-[30%]
+                            flex justify-center align-center w-full h-full">
+            <div className="flex flex-col w-[150%]">
+                <h1 className="text-2xl mb-10">About me.</h1>
+                <p className="text-[14px] leading-6">Hello, and welcome to my website! My name is Taya Kovalenko, and I&apos;m a software developer from Moscow with a passion for using technology to create innovative and intuitive solutions.<br/><br/>
                         
                         I am currently earning my degree in Computer Science in 
                         <span>Paris-Dauphine University</span> (France).<br/><br/>
@@ -20,11 +20,13 @@ const About = () => {
                 </p>
             </div>
             <div className="wrapper">
-                        <div className="box"></div>
-                        <div className="box-border"></div>
-                    </div>
+                <div className="box"></div>
+                <div className="box-border"></div>
+            </div>
 
         </div>
+        </div>
+        
     )
 }
 
