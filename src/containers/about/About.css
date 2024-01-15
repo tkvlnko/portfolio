@@ -62,3 +62,37 @@
     }
     
 }
+
+.li-item {
+    height: 10px;
+    width: 10px;
+    border: 1px solid #935EF3;
+    margin: 0.5rem;
+    border-radius: 50%;
+    transition: 0.5s ease
+}
+
+.li-item-coloured {
+    background-color: #935EF3;
+}
+
+.arrow-left:hover {
+    filter: invert(48%) sepia(13%) saturate(3207%) hue-rotate(210deg) brightness(130%) contrast(80%);
+}
+
+.span-about {
+    font-weight: bold;
+    color: #ad82ff;
+    transition: 0.5s ease;
+  }
+
+.span-about:hover {
+    color: white;
+    text-decoration: underline;
+    text-underline-offset: 5px;
+  }
+
+.img-profile {
+    transition: opacity 0.5s ease;
+}
+

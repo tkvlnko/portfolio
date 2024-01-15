@@ -13,7 +13,7 @@ function Navbar () {
 
         <div className=' font-ubuntu text-[14px] text-gray-400 navigation-subblock'>
             <div className='nav-items'>
-                <a className='nav-item'>about</a>
+                <a className='nav-item' href="#about">about</a>
                 <a className='nav-item'>contacts</a>
                 <a className='nav-item'>experience</a>
                 <a className='nav-item'>work</a>
