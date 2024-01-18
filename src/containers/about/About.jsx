@@ -1,5 +1,5 @@
 import "./About.css"
-import { profilePhoto, profilePhoto2, arrowLeft } from "../../assets"
+import { profilePhoto, profilePhoto2, arrowLeft } from "../../assets/index"
 import { useState } from "react"
 
 const data = [

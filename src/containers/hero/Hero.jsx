@@ -1,6 +1,6 @@
 import { Canvas } from "@react-three/fiber"
 import Blob from "../../components/Blob/index"
-import { arrow } from "../../assets"
+import { arrow } from "../../assets/index"
 import { Typewriter } from 'react-simple-typewriter'
 import "./Hero.css"
 
