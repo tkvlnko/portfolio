@@ -1,0 +1,9 @@
+.img-item {
+    opacity: 0.7;
+    transition: 0.3s ease;
+}
+
+.img-item:hover {
+    opacity: 1;
+    filter: brightness(120%);
+}
